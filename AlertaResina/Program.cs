@@ -16,6 +16,8 @@ namespace AlertaResina
 
             try
             {
+                const int X = 0;
+                X=1;
                 //var emailDto = new EmailDto();
                 //emailDto.Asunto = "TEST";
                 //emailDto.Mensaje = "mENSAJE DE PRUEBA";
