@@ -26,7 +26,7 @@ namespace AlertaResina
                 //var periodTimeSpan = TimeSpan.FromMinutes(5);
 
 
-                Timer timer = new Timer();
+              //  Timer timer = new Timer();
                 timer.Elapsed += new ElapsedEventHandler(RunConnection);
                 timer.Interval = 30000; // 5 minutes in milliseconds
                 timer.Enabled = true;
